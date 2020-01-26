@@ -5,6 +5,15 @@ class CreateSongs < ActiveRecord::Migration[6.0]
       t.string :title
       t.string :artist
       t.string :spotify_url
+      t.string :track_id
+      t.string :spotify_artistId
+      t.string :date
+      t.string :venue
+      t.string :category
+      t.string :songkick_url
+      t.string :lat
+      t.string :lng
+
 
       t.timestamps
     end
