@@ -9,4 +9,3 @@
 User.destroy_all
 Song.destroy_all
 Playlist.destroy_all
-Event.destroy_all
